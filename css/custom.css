@@ -1,0 +1,46 @@
+/* Custom stylesheet */
+body {
+    padding-top: 25px;
+}
+
+header {
+    background: #2d2d2d;
+}
+
+/* Media queries */
+@media (min-width: 768px) { }
+@media (min-width: 992px) { }
+@media (min-width: 1200px) { }
+
+}
+
+/* Bootstrap overrides */
+.jumbotron {
+    background: #2d2d2d;
+}
+
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+    background-color: transparent;
+    color: #3498db;
+}
+
+.navbar-default .navbar-brand {
+    color: #3498db;
+}
+
+/* Custom CSS */
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.title h1 {
+    font-size: 52pt;
+    color: #3498db;
+}
+
+.title h2 {
+    color: #fff;
+}
